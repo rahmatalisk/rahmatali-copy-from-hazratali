@@ -1,0 +1,51 @@
+
+
+
+.portfolio-content-box{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+   box-shadow:  var(--box-shadow)
+}
+ .img-content:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.img-content img{
+    height: 250px;
+    margin-bottom: 20px;
+    
+}
+.web-development-text{
+    color: var(--primary-color);
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.portfolio-content-box h2{
+font-size: 24px;
+font-weight: 600;
+}
+.portfolio-content-box h2:hover{
+color: var(--primary-color);
+cursor: pointer;
+}
+
+
+
+
+
+@media all and (max-width:992px) {
+    .portfolio-content-box h2{
+        font-size: 22px;
+        }
+        .web-development-text{
+            font-size: 16px;
+        }
+    
+}
+@media all and (max-width:425px) {
+    
+    
+}

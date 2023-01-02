@@ -1,0 +1,95 @@
+
+
+.banner{
+   background-color: #ECF0F3; 
+}
+.my-name{
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: bold;
+}
+.about-me{
+    line-height: 30px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+.fiverr-text{
+    color: #1dbf73;
+    font-weight: bold;
+}
+.banner-right{
+    
+}
+.myphoto{
+    width: 350px;
+    border-radius: 20px;
+    border: 3px solid var(--primary-color);
+}
+
+.banner-btn .hire-me{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    padding: 4px 1rem;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: -10px;
+}
+
+.explore-btn{
+    background-color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    padding: 4px 1rem;
+    border-radius: 20px;
+    margin-bottom: -10px;
+    border: 1px solid var(--primary-color);
+}
+
+.explore-btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.social-group{
+    display: flex;
+}
+.social-group div{
+    border: 1px solid rgba(128, 128, 128, 0.394);
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-group img{
+    width: 42px;
+    height: 42px;
+    color: aqua;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+@media all and (max-width:992px) {
+    .my-name{
+        color: var(--primary-color);
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+}
+@media all and (max-width:768px) {
+    .banner-contents{
+    flex-direction: column-reverse ;
+    }
+    
+}
